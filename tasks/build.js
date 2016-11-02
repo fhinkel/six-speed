@@ -65,18 +65,18 @@ Gulp.task('build:tests', function() {
             function createFile(testType, src) {
               var fileName = 'tests/' + testName + '__' + testType + '.js';
 
-              if (testType !== 'es6') {
-                try {
-                  // If esprima can parse, then assume that it should work under es5
-                  Esprima.parse(src);
-                } catch (err) {
-                  if (!(/Unexpected token/.test(err)) && !(/Invalid regular expression/.test(err))
-                      && !(/Use of future reserved word in strict mode/.test(err))) {
-                    throw new Error(err);
-                  }
-                  return;
-                }
-              }
+              // if (testType !== 'es6') {
+              //   try {
+              //     // If esprima can parse, then assume that it should work under es5
+              //     Esprima.parse(src);
+              //   } catch (err) {
+              //     if (!(/Unexpected token/.test(err)) && !(/Invalid regular expression/.test(err))
+              //         && !(/Use of future reserved word in strict mode/.test(err))) {
+              //       throw new Error(err);
+              //     }
+              //     return;
+              //   }
+              // }
 
               src = 'function(test, testName, testType, require, assertEqual) {' + src + '}';
               scripts.push(fileName);
@@ -94,27 +94,27 @@ Gulp.task('build:tests', function() {
               var babel = Babel.transform(content, {presets: ['es2015', 'stage-0']}).code,
                   babelRuntime = Babel.transform(content, {presets: ['es2015', 'stage-0'], plugins: ['transform-runtime']}).code,
                   babelLoose = Babel.transform(content, {presets: ['es2015-loose', 'stage-0'], plugins: ['transform-runtime']}).code;
-              createFile('babel', babel);
-              if (babel !== babelRuntime) {
-                createFile('babel-runtime', babelRuntime);
-              }
-              if (babel !== babelLoose) {
-                createFile('babel-loose', babelLoose);
-              }
+              // createFile('babel', babel);
+              // if (babel !== babelRuntime) {
+              //   createFile('babel-runtime', babelRuntime);
+              // }
+              // if (babel !== babelLoose) {
+              //   createFile('babel-loose', babelLoose);
+              // }
 
-              try {
-                var bubleCode = Buble.transform(content, { dangerousForOf: true }).code;
-                createFile('buble', bubleCode);
-              } catch (err) {
-                console.log('Error Buble compiling ' + testName + ':\n' + err.message);
-              }
+              // try {
+              //   var bubleCode = Buble.transform(content, { dangerousForOf: true }).code;
+              //   createFile('buble', bubleCode);
+              // } catch (err) {
+              //   console.log('Error Buble compiling ' + testName + ':\n' + err.message);
+              // }
 
-              try {
-                createFile('traceur', Traceur.compile(content));
-              } catch (err) {
-                console.log('Error traceur compiling ' + testName + ':\n' + err, err);
-              }
-              createFile('typescript', TypeScript.transpile(content, { module: TypeScript.ModuleKind.CommonJS }));
+              // try {
+              //   createFile('traceur', Traceur.compile(content));
+              // } catch (err) {
+              //   console.log('Error traceur compiling ' + testName + ':\n' + err, err);
+              // }
+              // createFile('typescript', TypeScript.transpile(content, { module: TypeScript.ModuleKind.CommonJS }));
             }
             createFile(ext, content);
 
