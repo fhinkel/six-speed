@@ -1,11 +1,9 @@
 var data = {a: 3};
 
-
 function fn() {
-  var a = data.a || 10;
-  var b = data.b || 5;
-  return b;
+  var {a=10, b=5} = data;
+  return a + b;
 }
 
-assertEqual(fn(), 5);
+assertEqual(fn(), 8);
 test(fn);

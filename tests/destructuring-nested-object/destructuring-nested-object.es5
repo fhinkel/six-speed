@@ -1,10 +1,12 @@
-var data = {a: 3};
-
+var data = {
+  a: 'foo',
+  b: {c: 'd'}
+};
 
 function fn() {
-  var {a=10, b=5} = data;
+  var b = data.b.c;
   return b;
 }
 
-assertEqual(fn(), 5);
+assertEqual(fn(), 'd');
 test(fn);
