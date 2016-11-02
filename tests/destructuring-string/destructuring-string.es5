@@ -1,0 +1,9 @@
+var data = 'hello';
+
+function fn() {
+  var a = data[1];
+  return a;
+}
+
+assertEqual(fn(), 'e');
+test(fn);
