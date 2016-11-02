@@ -1,4 +1,4 @@
-// 3,5,7,...,21
+// 5,7,...,21
 var x = 3;
 
 var iterator = function() {
@@ -17,8 +17,7 @@ function fn() {
   var iterable = {};
   iterable[Symbol.iterator] = iterator;
 
-  
-  var [ , , , a] = iterable;
+  var [ , , a] = iterable;
   return a;
 }
 
