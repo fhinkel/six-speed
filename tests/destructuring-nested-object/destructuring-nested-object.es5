@@ -1,0 +1,10 @@
+var data = {a: 3};
+
+
+function fn() {
+  var {a=10, b=5} = data;
+  return b;
+}
+
+assertEqual(fn(), 5);
+test(fn);
