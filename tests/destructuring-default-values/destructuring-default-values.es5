@@ -1,8 +1,8 @@
 var data = {a: 3};
 
 function fn() {
-  var a = data.a || 10;
-  var b = data.b || 5;
+  var a = data.a === undefined ? 10: data.a;
+  var b = data.b === undefined ? 5: data.b;
   return a + b;
 }
 
