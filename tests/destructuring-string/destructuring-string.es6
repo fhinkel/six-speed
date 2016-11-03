@@ -7,3 +7,16 @@ function fn() {
 
 assertEqual(fn(), 'e');
 test(fn);
+
+
+//
+// function fn(a) {
+//   var [b] = a;
+// }
+//
+// fn('a');
+// fn('a');
+// %OptimizeFunctionOnNextCall(fn)
+// fn('a');
+
+// --trace-escape
