@@ -1,9 +1,9 @@
 var data = 'hello';
 
 function fn() {
-  var a = data[1];
+  var a = data[0];
   return a;
 }
 
-assertEqual(fn(), 'e');
+assertEqual(fn(), 'h');
 test(fn);

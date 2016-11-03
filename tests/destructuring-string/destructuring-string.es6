@@ -1,11 +1,11 @@
 var data = 'hello';
 
 function fn() {
-  var [, a] = data;
+  var [a] = data;
   return a;
 }
 
-assertEqual(fn(), 'e');
+assertEqual(fn(), 'h');
 test(fn);
 
 
