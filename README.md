@@ -2,7 +2,7 @@
 
 ES6 polyfill vs. feature performance tests.
 
-Report is located at http://kpdecker.github.io/six-speed/
+Report is located at http://fhinkel.github.io/six-speed/
 
 ## Quick start
 clone, `npm install`,
