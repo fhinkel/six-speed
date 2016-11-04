@@ -1,0 +1,8 @@
+var data =  [11, 22, 33];
+
+function fn() {
+    return data.indexOf(22) !== -1;
+}
+
+assertEqual(fn(), true);
+test(fn);

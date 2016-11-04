@@ -7740,6 +7740,44 @@
             "es6": 366742
           },
           "errors": {}
+        },
+        "nodesource-array-includes": {
+          "supportsES6": true,
+          "baseline": 73948142.08028242,
+          "relative": {
+            "es6": 0.5060484500315642
+          },
+          "raw": {
+            "es6": 37421342.68244081
+          },
+          "elapsed": {
+            "es5": 5.748,
+            "es6": 5.507
+          },
+          "count": {
+            "es5": 3983524,
+            "es6": 2061520
+          },
+          "errors": {}
+        },
+        "nodesource-default-params": {
+          "supportsES6": true,
+          "baseline": 65617074.830742836,
+          "relative": {
+            "es6": 0.9524818664260533
+          },
+          "raw": {
+            "es6": 62499073.90420394
+          },
+          "elapsed": {
+            "es5": 5.669,
+            "es6": 5.523
+          },
+          "count": {
+            "es5": 3327734,
+            "es6": 3398525
+          },
+          "errors": {}
         }
       },
       "version": "56.0.2909.0"
