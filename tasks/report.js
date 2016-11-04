@@ -92,7 +92,8 @@ function render() {
 
       var versionName = browserData[tag].version,
           displayName = versionName;
-      if (browserName !== 'node' && browserName !== 'webkit') {
+      if (browserName !== 'node' && browserName !== 'webkit'
+        && browserName !== 'chrome') {
         displayName = parseFloat(versionName);
       }
 

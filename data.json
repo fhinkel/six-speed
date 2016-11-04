@@ -7780,7 +7780,7 @@
           "errors": {}
         }
       },
-      "version": "56.0.2909.0"
+      "version": "56.0.2909.0 with --turbo-escape"
     }
   },
   "firefox": {
