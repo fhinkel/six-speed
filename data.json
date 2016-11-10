@@ -7481,25 +7481,6 @@
             "es6": 353252
           },
           "errors": {}
-        },
-        "scratch": {
-          "supportsES6": true,
-          "baseline": 3636419.196376644,
-          "relative": {
-            "es6": 1.433993407610021
-          },
-          "raw": {
-            "es6": 5214601.154910638
-          },
-          "elapsed": {
-            "es5": 5.615,
-            "es6": 5.73
-          },
-          "count": {
-            "es5": 202973,
-            "es6": 296023
-          },
-          "errors": {}
         }
       },
       "version": "56.0.2909.0"
@@ -8735,26 +8716,7 @@
           },
           "errors": {}
         },
-        "scratch": {
-          "supportsES6": true,
-          "baseline": 39100213.426362194,
-          "relative": {
-            "es6": 0.15741181556951095
-          },
-          "raw": {
-            "es6": 6154835.584599041
-          },
-          "elapsed": {
-            "es5": 5.365,
-            "es6": 5.447
-          },
-          "count": {
-            "es5": 2157882,
-            "es6": 338024
-          },
-          "errors": {}
-        },
-        "spread": {
+          "spread": {
           "supportsES6": true,
           "baseline": 29713746.578068424,
           "relative": {
