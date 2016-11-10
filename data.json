@@ -6815,20 +6815,20 @@
       "stats": {
         "promises": {
           "supportsES6": true,
-          "baseline": 123.67546925668486,
+          "baseline": 123.29777297084695,
           "relative": {
-            "es6": 1.966057567893461
+            "es6": 1.965581892239492
           },
           "raw": {
-            "es6": 243.15309229488037
+            "es6": 242.35186990495265
           },
           "elapsed": {
-            "es5": 5.82,
-            "es6": 5.965
+            "es5": 5.897,
+            "es6": 6.145
           },
           "count": {
             "es5": 11,
-            "es6": 38
+            "es6": 43
           },
           "errors": {}
         },
@@ -6971,20 +6971,20 @@
         },
         "destructuring": {
           "supportsES6": true,
-          "baseline": 70923647.98077653,
+          "baseline": 31594328.837484565,
           "relative": {
-            "es6": 0.18383706833104482
+            "es6": 0.4336381236375446
           },
           "raw": {
-            "es6": 13038395.520128984
+            "es6": 13700505.474674372
           },
           "elapsed": {
-            "es5": 5.576,
+            "es5": 5.395,
             "es6": 5.422
           },
           "count": {
-            "es5": 4085839,
-            "es6": 784348
+            "es5": 1723108,
+            "es6": 725045
           },
           "errors": {}
         },
@@ -7479,6 +7479,25 @@
           "count": {
             "es5": 1062798,
             "es6": 353252
+          },
+          "errors": {}
+        },
+        "scratch": {
+          "supportsES6": true,
+          "baseline": 3636419.196376644,
+          "relative": {
+            "es6": 1.433993407610021
+          },
+          "raw": {
+            "es6": 5214601.154910638
+          },
+          "elapsed": {
+            "es5": 5.615,
+            "es6": 5.73
+          },
+          "count": {
+            "es5": 202973,
+            "es6": 296023
           },
           "errors": {}
         }
@@ -8158,6 +8177,699 @@
         }
       },
       "version": "56.0.2909.0 --turbo-escape"
+    },
+    "56.0.2916.0 with escape": {
+      "stats": {
+        "promises": {
+          "supportsES6": true,
+          "baseline": 123.55296361986865,
+          "relative": {
+            "es6": 1.970877624439367
+          },
+          "raw": {
+            "es6": 243.50777143157026
+          },
+          "elapsed": {
+            "es5": 5.841,
+            "es6": 6.133
+          },
+          "count": {
+            "es5": 12,
+            "es6": 48
+          },
+          "errors": {}
+        },
+        "arrow": {
+          "supportsES6": true,
+          "baseline": 82696126.77110311,
+          "relative": {
+            "es5-bind": 0.5613441671575254,
+            "es6": 1.0197625791474136
+          },
+          "raw": {
+            "es5-bind": 46420988.40947802,
+            "es6": 84330415.52160159
+          },
+          "elapsed": {
+            "es5-bind": 5.599,
+            "es5": 5.476,
+            "es6": 5.492
+          },
+          "count": {
+            "es5-bind": 2712742,
+            "es5": 4749510,
+            "es6": 4758066
+          },
+          "errors": {}
+        },
+        "arrow-args": {
+          "supportsES6": true,
+          "baseline": 69386722.13029882,
+          "relative": {
+            "es6": 1.0608026863733553
+          },
+          "raw": {
+            "es6": 73605621.23446253
+          },
+          "elapsed": {
+            "es5": 5.637,
+            "es6": 5.418
+          },
+          "count": {
+            "es5": 4432560,
+            "es6": 4211395
+          },
+          "errors": {}
+        },
+        "arrow-declare": {
+          "supportsES6": true,
+          "baseline": 30031572.93516652,
+          "relative": {
+            "es6": 0.7141771081210212
+          },
+          "raw": {
+            "es6": 21447861.911162753
+          },
+          "elapsed": {
+            "es5": 5.395,
+            "es6": 5.626
+          },
+          "count": {
+            "es5": 2122898,
+            "es6": 1337661
+          },
+          "errors": {}
+        },
+        "bindings": {
+          "supportsES6": true,
+          "baseline": 79434359.823884,
+          "relative": {
+            "es6": 0.9873294526533282
+          },
+          "raw": {
+            "es6": 78427883.0067829
+          },
+          "elapsed": {
+            "es5": 5.556,
+            "es6": 5.608
+          },
+          "count": {
+            "es5": 4957213,
+            "es6": 4778093
+          },
+          "errors": {}
+        },
+        "bindings-compound": {
+          "supportsES6": true,
+          "baseline": 75465128.70780084,
+          "relative": {
+            "es6": 0.7564964933178282
+          },
+          "raw": {
+            "es6": 57089105.2352299
+          },
+          "elapsed": {
+            "es5": 5.383,
+            "es6": 5.49
+          },
+          "count": {
+            "es5": 4642435,
+            "es6": 3112636
+          },
+          "errors": {}
+        },
+        "classes": {
+          "supportsES6": true,
+          "baseline": 53013090.06541439,
+          "relative": {
+            "es6": 0.6024705719058214
+          },
+          "raw": {
+            "es6": 31938826.690205026
+          },
+          "elapsed": {
+            "es5": 5.527,
+            "es6": 5.513
+          },
+          "count": {
+            "es5": 3368853,
+            "es6": 1851928
+          },
+          "errors": {}
+        },
+        "defaults": {
+          "supportsES6": true,
+          "baseline": 81025914.61532883,
+          "relative": {
+            "es6": 0.9657544575388034
+          },
+          "raw": {
+            "es6": 78251138.2159123
+          },
+          "elapsed": {
+            "es5": 5.475,
+            "es6": 5.635
+          },
+          "count": {
+            "es5": 4930723,
+            "es6": 4334108
+          },
+          "errors": {}
+        },
+        "destructuring": {
+          "supportsES6": true,
+          "baseline": 66398836.79760525,
+          "relative": {
+            "es6": 0.19398681605145293
+          },
+          "raw": {
+            "es6": 12880498.939887494
+          },
+          "elapsed": {
+            "es5": 5.509,
+            "es6": 5.473
+          },
+          "count": {
+            "es5": 4094585,
+            "es6": 835700
+          },
+          "errors": {}
+        },
+        "destructuring-array": {
+          "supportsES6": true,
+          "baseline": 68519543.86115396,
+          "relative": {
+            "es6": 0.26640139433442556
+          },
+          "raw": {
+            "es6": 18253702.023770243
+          },
+          "elapsed": {
+            "es5": 5.598,
+            "es6": 5.471
+          },
+          "count": {
+            "es5": 4728657,
+            "es6": 1106861
+          },
+          "errors": {}
+        },
+        "destructuring-custom-iterator": {
+          "supportsES6": true,
+          "baseline": 4819612.219763936,
+          "relative": {
+            "es6": 0.9733067918468377
+          },
+          "raw": {
+            "es6": 4690961.307564252
+          },
+          "elapsed": {
+            "es5": 5.465,
+            "es6": 5.467
+          },
+          "count": {
+            "es5": 299372,
+            "es6": 295945
+          },
+          "errors": {}
+        },
+        "destructuring-default-values": {
+          "supportsES6": true,
+          "baseline": 78243463.40900634,
+          "relative": {
+            "es6": 0.9805969126770198
+          },
+          "raw": {
+            "es6": 76725298.65602899
+          },
+          "elapsed": {
+            "es5": 5.635,
+            "es6": 5.316
+          },
+          "count": {
+            "es5": 4403639,
+            "es6": 4265426
+          },
+          "errors": {}
+        },
+        "destructuring-nested-object": {
+          "supportsES6": true,
+          "baseline": 79160326.53492802,
+          "relative": {
+            "es6": 1.0017404646022465
+          },
+          "raw": {
+            "es6": 79298102.28116435
+          },
+          "elapsed": {
+            "es5": 5.47,
+            "es6": 5.574
+          },
+          "count": {
+            "es5": 4663854,
+            "es6": 4200940
+          },
+          "errors": {}
+        },
+        "destructuring-simple": {
+          "supportsES6": true,
+          "baseline": 75136590.49167314,
+          "relative": {
+            "es6": 0.9965127846093542
+          },
+          "raw": {
+            "es6": 74874573.01690993
+          },
+          "elapsed": {
+            "es5": 5.564,
+            "es6": 5.562
+          },
+          "count": {
+            "es5": 4370230,
+            "es6": 4854902
+          },
+          "errors": {}
+        },
+        "destructuring-string": {
+          "supportsES6": true,
+          "baseline": 69460612.10083811,
+          "relative": {
+            "es6": 0.4452049906218919
+          },
+          "raw": {
+            "es6": 30924211.158944502
+          },
+          "elapsed": {
+            "es5": 5.435,
+            "es6": 5.394
+          },
+          "count": {
+            "es5": 4003165,
+            "es6": 1912925
+          },
+          "errors": {}
+        },
+        "for-of-array": {
+          "supportsES6": true,
+          "baseline": 20317785.872571256,
+          "relative": {
+            "es6": 0.3531458365782748
+          },
+          "raw": {
+            "es6": 7175141.489387429
+          },
+          "elapsed": {
+            "es5": 5.456,
+            "es6": 5.643
+          },
+          "count": {
+            "es5": 1333461,
+            "es6": 388295
+          },
+          "errors": {}
+        },
+        "for-of-object": {
+          "supportsES6": true,
+          "baseline": 6882141.582215364,
+          "relative": {
+            "es6": 0.48723597348682396
+          },
+          "raw": {
+            "es6": 3353226.9534848537
+          },
+          "elapsed": {
+            "es5": 5.305,
+            "es6": 5.383
+          },
+          "count": {
+            "es5": 389545,
+            "es6": 227755
+          },
+          "errors": {}
+        },
+        "generator": {
+          "supportsES6": true,
+          "baseline": 8336140.91902928,
+          "relative": {
+            "es6": 0.419152737583346
+          },
+          "raw": {
+            "es6": 3494116.2870916724
+          },
+          "elapsed": {
+            "es5": 5.333,
+            "es6": 5.471
+          },
+          "count": {
+            "es5": 621021,
+            "es6": 233070
+          },
+          "errors": {}
+        },
+        "map-set": {
+          "supportsES6": true,
+          "baseline": 146445.35679395084,
+          "relative": {
+            "es6": 0.26185889838262844
+          },
+          "raw": {
+            "es6": 38348.019803314935
+          },
+          "elapsed": {
+            "es5": 5.506,
+            "es6": 5.332
+          },
+          "count": {
+            "es5": 8744,
+            "es6": 2103
+          },
+          "errors": {}
+        },
+        "map-set-lookup": {
+          "supportsES6": true,
+          "baseline": 2036858.1055731848,
+          "relative": {
+            "es6": 10.013282416015427
+          },
+          "raw": {
+            "es6": 20395635.452454466
+          },
+          "elapsed": {
+            "es5": 5.352,
+            "es6": 5.413
+          },
+          "count": {
+            "es5": 104965,
+            "es6": 1101149
+          },
+          "errors": {}
+        },
+        "map-set-object": {
+          "supportsES6": true,
+          "baseline": 126068.73138610278,
+          "relative": {
+            "es6": 0.16252360885317738
+          },
+          "raw": {
+            "es6": 20489.145188411254
+          },
+          "elapsed": {
+            "es5": 5.523,
+            "es6": 5.696
+          },
+          "count": {
+            "es5": 7430,
+            "es6": 1063
+          },
+          "errors": {}
+        },
+        "map-string": {
+          "supportsES6": true,
+          "baseline": 55626101.23467771,
+          "relative": {
+            "es6": 0.540761620206345
+          },
+          "raw": {
+            "es6": 30080460.629426487
+          },
+          "elapsed": {
+            "es5": 5.529,
+            "es6": 5.666
+          },
+          "count": {
+            "es5": 3093358,
+            "es6": 1630397
+          },
+          "errors": {}
+        },
+        "new-target": {
+          "supportsES6": true,
+          "baseline": 55233223.88350471,
+          "relative": {
+            "es6": 0.5777060684255281
+          },
+          "raw": {
+            "es6": 31908568.616206486
+          },
+          "elapsed": {
+            "es5": 5.642,
+            "es6": 5.733
+          },
+          "count": {
+            "es5": 3507681,
+            "es6": 1918454
+          },
+          "errors": {}
+        },
+        "nodesource-array-includes": {
+          "supportsES6": true,
+          "baseline": 69387295.2202356,
+          "relative": {
+            "es6": 0.5031734335231421
+          },
+          "raw": {
+            "es6": 34913843.57884986
+          },
+          "elapsed": {
+            "es5": 5.545,
+            "es6": 5.587
+          },
+          "count": {
+            "es5": 3811800,
+            "es6": 1939879
+          },
+          "errors": {}
+        },
+        "nodesource-default-params": {
+          "supportsES6": true,
+          "baseline": 69488336.70079257,
+          "relative": {
+            "es6": 0.9698728161195
+          },
+          "raw": {
+            "es6": 67394848.80345769
+          },
+          "elapsed": {
+            "es5": 5.415,
+            "es6": 5.709
+          },
+          "count": {
+            "es5": 3636145,
+            "es6": 3528960
+          },
+          "errors": {}
+        },
+        "object-assign": {
+          "supportsES6": true,
+          "baseline": 4694122.302221393,
+          "relative": {
+            "es6": 0.35788987212032286
+          },
+          "raw": {
+            "es6": 1679978.83045917
+          },
+          "elapsed": {
+            "es5": 5.671,
+            "es6": 5.665
+          },
+          "count": {
+            "es5": 251466,
+            "es6": 87929
+          },
+          "errors": {}
+        },
+        "object-literal-ext": {
+          "supportsES6": true,
+          "baseline": 15711695.168719105,
+          "relative": {
+            "es6": 0.18683819622355435
+          },
+          "raw": {
+            "es6": 2935544.784937811
+          },
+          "elapsed": {
+            "es5": 5.403,
+            "es6": 5.617
+          },
+          "count": {
+            "es5": 1109140,
+            "es6": 154390
+          },
+          "errors": {}
+        },
+        "regex-u": {
+          "supportsES6": true,
+          "baseline": 3682697.2864510324,
+          "relative": {
+            "es6": 0.8557820677637407
+          },
+          "raw": {
+            "es6": 3151586.298746981
+          },
+          "elapsed": {
+            "es5": 5.469,
+            "es6": 5.555
+          },
+          "count": {
+            "es5": 190384,
+            "es6": 176933
+          },
+          "errors": {}
+        },
+        "rest": {
+          "supportsES6": true,
+          "baseline": 9801352.978550341,
+          "relative": {
+            "es6": 1.4749205121849733
+          },
+          "raw": {
+            "es6": 14456216.555229183
+          },
+          "elapsed": {
+            "es5": 5.383,
+            "es6": 5.692
+          },
+          "count": {
+            "es5": 595571,
+            "es6": 942330
+          },
+          "errors": {}
+        },
+        "scratch": {
+          "supportsES6": true,
+          "baseline": 39100213.426362194,
+          "relative": {
+            "es6": 0.15741181556951095
+          },
+          "raw": {
+            "es6": 6154835.584599041
+          },
+          "elapsed": {
+            "es5": 5.365,
+            "es6": 5.447
+          },
+          "count": {
+            "es5": 2157882,
+            "es6": 338024
+          },
+          "errors": {}
+        },
+        "spread": {
+          "supportsES6": true,
+          "baseline": 29713746.578068424,
+          "relative": {
+            "es6": 0.08091082139179323
+          },
+          "raw": {
+            "es6": 2404163.6422591014
+          },
+          "elapsed": {
+            "es5": 5.475,
+            "es6": 5.483
+          },
+          "count": {
+            "es5": 1787094,
+            "es6": 145696
+          },
+          "errors": {}
+        },
+        "spread-generator": {
+          "supportsES6": true,
+          "baseline": 5795575.355591475,
+          "relative": {
+            "es6": 0.2503602895986419
+          },
+          "raw": {
+            "es6": 1450981.9244166338
+          },
+          "elapsed": {
+            "es5": 5.492,
+            "es6": 5.534
+          },
+          "count": {
+            "es5": 431932,
+            "es6": 90907
+          },
+          "errors": {}
+        },
+        "spread-literal": {
+          "supportsES6": true,
+          "baseline": 10344961.379534233,
+          "relative": {
+            "es6": 0.2531038886971388
+          },
+          "raw": {
+            "es6": 2618349.953581832
+          },
+          "elapsed": {
+            "es5": 5.474,
+            "es6": 5.487
+          },
+          "count": {
+            "es5": 623627,
+            "es6": 183574
+          },
+          "errors": {}
+        },
+        "super": {
+          "supportsES6": true,
+          "baseline": 24205286.896851823,
+          "relative": {
+            "es6": 0.34737452965667237
+          },
+          "raw": {
+            "es6": 8408300.150998717
+          },
+          "elapsed": {
+            "es5": 5.526,
+            "es6": 5.487
+          },
+          "count": {
+            "es5": 1516654,
+            "es6": 586213
+          },
+          "errors": {}
+        },
+        "template_string": {
+          "supportsES6": true,
+          "baseline": 18186774.085780706,
+          "relative": {
+            "es6": 1.0444376441211864
+          },
+          "raw": {
+            "es6": 18994951.480317045
+          },
+          "elapsed": {
+            "es5": 5.522,
+            "es6": 5.422
+          },
+          "count": {
+            "es5": 1295694,
+            "es6": 1255560
+          },
+          "errors": {}
+        },
+        "template_string_tag": {
+          "supportsES6": true,
+          "baseline": 14034138.896572914,
+          "relative": {
+            "es6": 0.42204580746216125
+          },
+          "raw": {
+            "es6": 5923049.48264024
+          },
+          "elapsed": {
+            "es5": 5.365,
+            "es6": 5.438
+          },
+          "count": {
+            "es5": 927225,
+            "es6": 364539
+          },
+          "errors": {}
+        }
+      },
+      "version": "56.0.2916.0 --turbo-escape"
     }
   },
   "firefox": {
