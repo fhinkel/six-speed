@@ -1,14 +1,14 @@
 function fn() {
   var name = 'foo';
   var ret = {
-    [name+1]: 'bar',
+    [name]: 'bar',
   };
-  return ret.foo1;
+  return ret.foo;
 }
 
 fn();
 fn();
-%OptimizeFunctionOnNextCall(fn);
+//%OptimizeFunctionOnNextCall(fn);
 print(fn());
 
 // assertEqual(fn().foo, 'bar');

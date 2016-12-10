@@ -1,13 +1,13 @@
 function fn() {
   var name = 'foo';
   var ret = {};
-  ret[name+1] = 'bar';
-  return ret.foo1;
+  ret[name] = 'bar';
+  return ret.foo;
 }
 
 fn();
 fn();
-%OptimizeFunctionOnNextCall(fn);
+//%OptimizeFunctionOnNextCall(fn);
 print(fn());
 
 // assertEqual(fn().foo, 'bar');
