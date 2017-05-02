@@ -2209,114 +2209,114 @@
       "stats": {
         "promises": {
           "supportsES6": true,
-          "baseline": 832.7510324793648,
+          "baseline": 839.1578270003687,
           "relative": {
-            "babel-loose": 0.9748094145773403,
-            "babel-runtime": 0.9922634927225451,
-            "buble": 1.0394214208862032,
-            "babel": 1.052833222355856,
-            "es6": 1.047446942874887,
-            "traceur": 1.0301239232833315,
-            "typescript": 1.0395834199328917
+            "babel-loose": 0.9653630334731433,
+            "babel-runtime": 0.9891398012689416,
+            "buble": 1.0300829298472527,
+            "babel": 1.0303129821999593,
+            "es6": 1.038532963127814,
+            "traceur": 1.0283072184760382,
+            "typescript": 1.0318575134149766
           },
           "raw": {
-            "babel-loose": 811.7735464598852,
-            "babel-runtime": 826.3084480562801,
-            "buble": 865.579261424154,
-            "babel": 876.7479529454157,
-            "es6": 872.2625231464164,
-            "traceur": 857.8367606958882,
-            "typescript": 865.7141662975447
+            "babel-loose": 810.0919454358071,
+            "babel-runtime": 830.0444062324216,
+            "buble": 864.4021530407938,
+            "babel": 864.5952032731874,
+            "es6": 871.4930646065903,
+            "traceur": 862.9120509451457,
+            "typescript": 865.8913087313155
           },
           "elapsed": {
-            "babel-loose": 5.935,
-            "babel-runtime": 5.997,
-            "buble": 5.868,
-            "babel": 6.17,
-            "es5": 5.967,
-            "es6": 5.892,
-            "traceur": 5.926,
-            "typescript": 5.933
+            "babel-loose": 6.069,
+            "babel-runtime": 6.156,
+            "buble": 5.953,
+            "babel": 6.048,
+            "es5": 5.985,
+            "es6": 5.898,
+            "traceur": 5.949,
+            "typescript": 5.953
           },
           "count": {
-            "babel-loose": 109,
-            "babel-runtime": 109,
-            "buble": 58,
-            "babel": 162,
+            "babel-loose": 125,
+            "babel-runtime": 143,
+            "buble": 48,
+            "babel": 146,
             "es5": 47,
             "es6": 56,
-            "traceur": 61,
-            "typescript": 47
+            "traceur": 48,
+            "typescript": 49
           },
           "errors": {}
         },
         "arrow": {
           "supportsES6": true,
-          "baseline": 103758159.41340704,
+          "baseline": 93358546.36248146,
           "relative": {
-            "buble": 1.0487592048386598,
-            "babel": 1.0420069289236062,
-            "es5-bind": 0.5137827581333019,
-            "es6": 0.9774549285519143,
-            "traceur": 1.0504605926641135,
-            "typescript": 0.9780450674216079
+            "babel": 1.0301636778969496,
+            "buble": 1.1280360377309555,
+            "es5-bind": 0.567169993772623,
+            "es6": 1.0320741926673584,
+            "traceur": 0.9596968457969269,
+            "typescript": 1.0711946756488755
           },
           "raw": {
-            "buble": 108817324.76192766,
-            "babel": 108116721.04113023,
-            "es5-bind": 53309153.32225509,
-            "es6": 101418924.29610991,
-            "traceur": 108993857.63114513,
-            "typescript": 101480156.01902764
+            "babel": 96174583.4838868,
+            "buble": 105311804.7270553,
+            "es5-bind": 52950166.159029745,
+            "es6": 96352946.3656562,
+            "traceur": 89595902.47225963,
+            "typescript": 100005177.78980882
           },
           "elapsed": {
-            "buble": 5.564,
-            "babel": 5.571,
-            "es5-bind": 5.436,
-            "es5": 5.591,
-            "es6": 5.483,
-            "traceur": 5.473,
-            "typescript": 5.493
+            "babel": 5.581,
+            "buble": 5.635,
+            "es5": 5.453,
+            "es5-bind": 5.457,
+            "es6": 5.482,
+            "traceur": 5.627,
+            "typescript": 5.615
           },
           "count": {
-            "buble": 5603582,
-            "babel": 5447397,
-            "es5-bind": 2882063,
-            "es5": 5439232,
-            "es6": 5444345,
-            "traceur": 5613612,
-            "typescript": 5427656
+            "babel": 5227034,
+            "buble": 5584074,
+            "es5": 5277172,
+            "es5-bind": 2943883,
+            "es6": 5578550,
+            "traceur": 5216799,
+            "typescript": 5366090
           },
           "errors": {}
         },
         "arrow-args": {
           "supportsES6": true,
-          "baseline": 101070350.72737417,
+          "baseline": 84068492.19006553,
           "relative": {
-            "babel": 0.9750629592960783,
-            "buble": 0.9675880697911959,
-            "es6": 0.9282383625583905,
-            "traceur": 0.896775458813819
+            "buble": 1.1864354815199039,
+            "babel": 1.0567434860408862,
+            "es6": 0.9830720213862473,
+            "traceur": 0.9097567990995731
           },
           "raw": {
-            "babel": 98549955.277326,
-            "buble": 97794465.57341917,
-            "es6": 93817376.86238003,
-            "traceur": 90637410.14601457
+            "buble": 99741842.01217267,
+            "babel": 88838831.50313087,
+            "es6": 82645382.55218166,
+            "traceur": 76481882.35996148
           },
           "elapsed": {
-            "babel": 5.557,
-            "buble": 5.566,
-            "es6": 5.502,
-            "es5": 5.633,
-            "traceur": 5.661
+            "buble": 5.542,
+            "babel": 5.605,
+            "es5": 5.419,
+            "es6": 5.507,
+            "traceur": 5.622
           },
           "count": {
-            "babel": 5080868,
-            "buble": 5100218,
-            "es6": 5066919,
-            "es5": 5111454,
-            "traceur": 5106067
+            "buble": 5093519,
+            "babel": 4800617,
+            "es5": 4669692,
+            "es6": 4771149,
+            "traceur": 4735808
           },
           "errors": {
             "typescript": "Error: AssertError - Expect undefined to equal 1"
@@ -2324,332 +2324,332 @@
         },
         "arrow-declare": {
           "supportsES6": true,
-          "baseline": 48572735.966117054,
+          "baseline": 46159689.24144237,
           "relative": {
-            "buble": 0.7810434937853957,
-            "babel": 0.785030708094195,
-            "es6": 0.8044127946251337,
-            "traceur": 0.7663888321871826,
-            "typescript": 0.791265512034948
+            "buble": 0.8494138126572979,
+            "babel": 0.7973833562583895,
+            "es6": 0.815150317254197,
+            "typescript": 0.8367047334743571,
+            "traceur": 0.7613922496226115
           },
           "raw": {
-            "buble": 37937419.401691616,
-            "babel": 38131089.30955324,
-            "es6": 39072530.281092964,
-            "traceur": 37225602.39320881,
-            "typescript": 38433930.795167945
+            "buble": 39208677.62964962,
+            "babel": 36806967.93118559,
+            "es6": 37627085.32951689,
+            "typescript": 38622030.48402019,
+            "traceur": 35145629.633422464
           },
           "elapsed": {
-            "buble": 5.427,
-            "babel": 5.738,
-            "es5": 5.553,
-            "es6": 5.544,
-            "traceur": 5.557,
-            "typescript": 5.526
+            "buble": 5.514,
+            "babel": 5.685,
+            "es5": 5.575,
+            "es6": 5.618,
+            "typescript": 5.496,
+            "traceur": 5.73
           },
           "count": {
-            "buble": 1983309,
-            "babel": 1956277,
-            "es5": 2513772,
-            "es6": 2013945,
-            "traceur": 1932871,
-            "typescript": 1981671
+            "buble": 2029645,
+            "babel": 1913537,
+            "es5": 2493874,
+            "es6": 1989225,
+            "typescript": 2043185,
+            "traceur": 1917572
           },
           "errors": {}
         },
         "bindings": {
           "supportsES6": true,
-          "baseline": 93700667.7853646,
+          "baseline": 82682770.9019093,
           "relative": {
-            "buble": 1.0122750713659487,
-            "babel": 1.0125671223356842,
-            "es6": 0.9641076950543652,
-            "traceur": 1.0250627526247136,
-            "typescript": 1.0398168073951288
+            "babel": 1.05942653547361,
+            "buble": 1.1187306841996862,
+            "es6": 0.9779894033480211,
+            "traceur": 0.9735789147865604,
+            "typescript": 1.0813363758645187
           },
           "raw": {
-            "buble": 94850850.169467,
-            "babel": 94878215.54035857,
-            "es6": 90337534.84360267,
-            "traceur": 96049064.44283965,
-            "typescript": 97431529.22736941
+            "babel": 87596321.51996799,
+            "buble": 92499752.86261891,
+            "es6": 80862873.7815194,
+            "traceur": 80498202.36622666,
+            "typescript": 89407887.8335069
           },
           "elapsed": {
-            "buble": 5.533,
-            "babel": 5.583,
-            "es5": 5.426,
-            "es6": 5.633,
-            "traceur": 5.684,
-            "typescript": 5.48
+            "babel": 5.474,
+            "buble": 5.513,
+            "es6": 5.443,
+            "es5": 5.624,
+            "traceur": 5.405,
+            "typescript": 5.42
           },
           "count": {
-            "buble": 4824080,
-            "babel": 4917744,
-            "es5": 4897598,
-            "es6": 4685218,
-            "traceur": 4843917,
-            "typescript": 4926185
+            "babel": 4623405,
+            "buble": 4890276,
+            "es6": 4670993,
+            "es5": 4600437,
+            "traceur": 4616453,
+            "typescript": 4661690
           },
           "errors": {}
         },
         "bindings-compound": {
           "supportsES6": true,
-          "baseline": 92409304.6184181,
+          "baseline": 81242517.73621358,
           "relative": {
-            "babel": 1.0460250064412733,
-            "buble": 1.023765774772091,
-            "es6": 0.8607249767698751,
-            "traceur": 1.0307875752119715,
-            "typescript": 1.0388888932376081
+            "buble": 1.1699247134915816,
+            "babel": 1.074009597086553,
+            "es6": 0.9373629074753068,
+            "traceur": 0.9260621147760698,
+            "typescript": 1.0458090816875152
           },
           "raw": {
-            "babel": 96662443.45871438,
-            "buble": 94605483.33882497,
-            "es6": 79538996.57100824,
-            "traceur": 95254363.03464364,
-            "typescript": 96003000.19988537
+            "buble": 95047629.2858744,
+            "babel": 87255243.74016789,
+            "es6": 76153722.63583134,
+            "traceur": 75235617.78453031,
+            "typescript": 84964162.86769119
           },
           "elapsed": {
-            "babel": 5.583,
-            "buble": 5.64,
-            "es5": 5.51,
-            "es6": 5.638,
-            "traceur": 5.507,
-            "typescript": 5.577
+            "buble": 5.426,
+            "babel": 5.501,
+            "es5": 5.545,
+            "es6": 5.515,
+            "traceur": 5.405,
+            "typescript": 5.488
           },
           "count": {
-            "babel": 4903572,
-            "buble": 4880714,
-            "es5": 4893515,
-            "es6": 4141653,
-            "traceur": 4907809,
-            "typescript": 5087977
+            "buble": 4871437,
+            "babel": 4595675,
+            "es5": 4597738,
+            "es6": 4139712,
+            "traceur": 4541222,
+            "typescript": 4586141
           },
           "errors": {}
         },
         "classes": {
           "supportsES6": true,
-          "baseline": 76756132.48388323,
+          "baseline": 68452820.32919648,
           "relative": {
-            "babel-runtime": 0.5888045379700746,
-            "babel-loose": 0.6160893752215295,
-            "babel": 0.597812935496525,
-            "buble": 1.051875385026387,
-            "es6": 1.0214482661426365,
-            "traceur": 1.0534686540115072,
-            "typescript": 1.0561685271715457
+            "babel-runtime": 0.6541182964324949,
+            "babel-loose": 0.695887227324234,
+            "babel": 0.6250576266671442,
+            "buble": 1.1298155525662679,
+            "es6": 0.9513079365487278,
+            "traceur": 0.9979179446403121,
+            "typescript": 1.003857039830577
           },
           "raw": {
-            "babel-runtime": 45194359.1235427,
-            "babel-loose": 47288637.70641656,
-            "babel": 45885808.877550416,
-            "buble": 80737886.40962106,
-            "es6": 78402418.44147703,
-            "traceur": 80860179.5749254,
-            "typescript": 81067411.39688699
+            "babel-runtime": 44776242.219733655,
+            "babel-loose": 47635443.3414085,
+            "babel": 42786957.41363999,
+            "buble": 77339061.02495058,
+            "es6": 65119711.258308716,
+            "traceur": 68310297.76774433,
+            "typescript": 68716845.58372153
           },
           "elapsed": {
-            "babel-runtime": 5.52,
-            "babel-loose": 5.675,
-            "babel": 5.436,
-            "buble": 5.558,
-            "es5": 5.564,
-            "es6": 5.568,
-            "traceur": 5.527,
-            "typescript": 5.399
+            "babel-runtime": 5.479,
+            "babel-loose": 5.502,
+            "babel": 5.445,
+            "buble": 5.501,
+            "es6": 5.479,
+            "es5": 5.63,
+            "traceur": 5.582,
+            "typescript": 5.547
           },
           "count": {
-            "babel-runtime": 2392764,
-            "babel-loose": 2466305,
-            "babel": 2326856,
-            "buble": 4132461,
-            "es5": 4064656,
-            "es6": 4081376,
-            "traceur": 4133745,
-            "typescript": 4240171
+            "babel-runtime": 2430215,
+            "babel-loose": 2558406,
+            "babel": 2275188,
+            "buble": 4118312,
+            "es6": 3812344,
+            "es5": 4046448,
+            "traceur": 3994348,
+            "typescript": 3876983
           },
           "errors": {}
         },
         "defaults": {
           "supportsES6": true,
-          "baseline": 88471599.5716971,
+          "baseline": 73065778.80345856,
           "relative": {
-            "buble": 1.0931779059664946,
-            "babel": 0.7988991470130626,
-            "es6": 1.0450063034993144,
-            "traceur": 0.12328876236544115,
-            "typescript": 1.0904604271636114
+            "babel": 0.9059455077206162,
+            "buble": 1.2656956982419292,
+            "es6": 1.0840245570340736,
+            "traceur": 0.11958860016450633,
+            "typescript": 1.161998986025138
           },
           "raw": {
-            "buble": 96715197.95729405,
-            "babel": 70679885.43271005,
-            "es6": 92453379.23309071,
-            "traceur": 10907554.015685428,
-            "typescript": 96474778.2608008
+            "babel": 66193614.0751015,
+            "buble": 92479041.92023383,
+            "es6": 79205098.50176877,
+            "traceur": 8737834.207035067,
+            "typescript": 84902360.88275588
           },
           "elapsed": {
-            "buble": 5.419,
-            "babel": 5.541,
-            "es5": 5.41,
-            "es6": 5.502,
-            "traceur": 5.485,
-            "typescript": 5.602
+            "babel": 5.461,
+            "buble": 5.525,
+            "es5": 5.52,
+            "es6": 5.643,
+            "traceur": 5.607,
+            "typescript": 5.631
           },
           "count": {
-            "buble": 4900522,
-            "babel": 3553973,
-            "es5": 4775756,
-            "es6": 4769506,
-            "traceur": 560191,
-            "typescript": 4909672
+            "babel": 3610446,
+            "buble": 4876737,
+            "es5": 4706931,
+            "es6": 4696611,
+            "traceur": 539545,
+            "typescript": 4742299
           },
           "errors": {}
         },
         "destructuring": {
           "supportsES6": true,
-          "baseline": 77373184.62713589,
+          "baseline": 64485810.95032554,
           "relative": {
-            "babel-loose": 1.1666833724456371,
-            "babel-runtime": 0.5347572201160256,
-            "babel": 0.5508253801082322,
-            "es6": 0.11172023341987389,
-            "traceur": 0.09759329481122198,
-            "typescript": 1.0103419125660482
+            "babel-runtime": 0.6128734323202095,
+            "babel-loose": 1.3625822423275478,
+            "babel": 0.6152849220692821,
+            "es6": 0.12460149236529922,
+            "traceur": 0.11129930418188458,
+            "typescript": 1.196120089905554
           },
           "raw": {
-            "babel-loose": 90270007.97764583,
-            "babel-runtime": 41375869.122731194,
-            "babel": 42619113.832426555,
-            "es6": 8644150.24698262,
-            "traceur": 7551104.017799181,
-            "typescript": 78173371.33750643
+            "babel-runtime": 39521640.29307817,
+            "babel-loose": 87867220.8830049,
+            "babel": 39677147.16514551,
+            "es6": 8035028.280797116,
+            "traceur": 7177225.888375786,
+            "typescript": 77132773.99153595
           },
           "elapsed": {
-            "babel-loose": 5.349,
-            "babel-runtime": 5.406,
-            "babel": 5.397,
-            "es5": 5.49,
-            "es6": 5.402,
-            "traceur": 5.486,
-            "typescript": 5.495
+            "babel-runtime": 5.659,
+            "babel-loose": 5.731,
+            "babel": 5.449,
+            "es5": 5.588,
+            "es6": 5.565,
+            "traceur": 5.615,
+            "typescript": 5.614
           },
           "count": {
-            "babel-loose": 4633630,
-            "babel-runtime": 2134155,
-            "babel": 2192978,
-            "es5": 3951043,
-            "es6": 447256,
-            "traceur": 409043,
-            "typescript": 4153496
+            "babel-runtime": 2132808,
+            "babel-loose": 4586980,
+            "babel": 2103692,
+            "es5": 3929980,
+            "es6": 448085,
+            "traceur": 410632,
+            "typescript": 4057046
           },
           "errors": {}
         },
         "destructuring-simple": {
           "supportsES6": true,
-          "baseline": 86492941.23471512,
+          "baseline": 78753221.4489308,
           "relative": {
-            "buble": 1.0544911916625064,
-            "babel": 1.0826369701550589,
-            "es6": 1.0147025869128452,
-            "traceur": 1.0197452400779194,
-            "typescript": 0.9532740735405972
+            "babel": 1.0669278760541212,
+            "buble": 1.1444069063370033,
+            "es6": 0.9518623693120949,
+            "traceur": 0.9045665228418289,
+            "typescript": 1.0890391444751426
           },
           "raw": {
-            "buble": 91206044.67298988,
-            "babel": 93640455.83815153,
-            "es6": 87764611.22056612,
-            "traceur": 88200765.12443995,
-            "typescript": 82451478.42332438
+            "babel": 84024007.29292761,
+            "buble": 90125730.52244383,
+            "es6": 74962227.95933937,
+            "traceur": 71237527.68865187,
+            "typescript": 85765340.91140504
           },
           "elapsed": {
-            "buble": 5.51,
-            "babel": 5.738,
-            "es5": 5.509,
-            "es6": 5.411,
-            "traceur": 5.565,
-            "typescript": 5.619
+            "babel": 5.489,
+            "buble": 5.597,
+            "es5": 5.481,
+            "es6": 5.536,
+            "traceur": 5.591,
+            "typescript": 5.463
           },
           "count": {
-            "buble": 4823754,
-            "babel": 4830755,
-            "es5": 4834085,
-            "es6": 4676058,
-            "traceur": 4639513,
-            "typescript": 4509715
+            "babel": 4519150,
+            "buble": 4817521,
+            "es5": 4501396,
+            "es6": 4652977,
+            "traceur": 4504681,
+            "typescript": 4534704
           },
           "errors": {}
         },
         "for-of-array": {
           "supportsES6": true,
-          "baseline": 24522235.66386754,
+          "baseline": 23949456.515047807,
           "relative": {
-            "babel-runtime": 0.18352150325123356,
-            "babel-loose": 0.7897877801838349,
-            "babel": 0.1916080340079355,
-            "es6": 0.12422549125337357,
-            "traceur": 0.1197821556246095,
-            "typescript": 0.9139432538998591
+            "babel-loose": 0.7517600287044798,
+            "babel-runtime": 0.18617543370219342,
+            "babel": 0.19684650014707766,
+            "es6": 0.1384400519312198,
+            "traceur": 0.12427889059122806,
+            "typescript": 0.9371335236197579
           },
           "raw": {
-            "babel-runtime": 4500357.552113983,
-            "babel-loose": 19367362.070110813,
-            "babel": 4698657.36503294,
-            "es6": 3046286.7719749426,
-            "traceur": 2937326.2485527312,
-            "typescript": 22411931.85553427
+            "babel-loose": 18004244.11720903,
+            "babel-runtime": 4458800.453620847,
+            "babel": 4714366.695411788,
+            "es6": 3315564.003667709,
+            "traceur": 2976411.8859530003,
+            "typescript": 22443838.57272492
           },
           "elapsed": {
-            "babel-runtime": 5.491,
-            "babel-loose": 5.8,
-            "babel": 5.41,
-            "es5": 5.586,
-            "es6": 5.632,
-            "traceur": 5.55,
-            "typescript": 5.389
+            "babel-loose": 5.496,
+            "babel-runtime": 5.532,
+            "babel": 5.388,
+            "es5": 5.57,
+            "es6": 5.55,
+            "traceur": 5.411,
+            "typescript": 5.694
           },
           "count": {
-            "babel-runtime": 245443,
-            "babel-loose": 991611,
-            "babel": 249528,
-            "es5": 1295498,
-            "es6": 168687,
-            "traceur": 163940,
-            "typescript": 1226986
+            "babel-loose": 994242,
+            "babel-runtime": 248642,
+            "babel": 248975,
+            "es5": 1287166,
+            "es6": 178932,
+            "traceur": 168635,
+            "typescript": 1295287
           },
           "errors": {}
         },
         "for-of-object": {
           "supportsES6": true,
-          "baseline": 12117598.215558246,
+          "baseline": 12004120.703742199,
           "relative": {
-            "babel-runtime": 0.21022339245595634,
-            "babel-loose": 0.2749764921646653,
-            "babel": 0.25867639806478815,
-            "es6": 0.2509895546409791,
-            "traceur": 0.2532925442952038
+            "babel-runtime": 0.24834501866032793,
+            "babel-loose": 0.29060662849143043,
+            "babel": 0.2671743999518699,
+            "es6": 0.2693771462586553,
+            "traceur": 0.25667305355989034
           },
           "raw": {
-            "babel-runtime": 2547402.605292897,
-            "babel-loose": 3332054.6507750144,
-            "babel": 3134536.659596911,
-            "es6": 3041390.5794412876,
-            "traceur": 3069297.28276577
+            "babel-runtime": 2981163.580171685,
+            "babel-loose": 3488477.045718698,
+            "babel": 3207193.7459721407,
+            "es6": 3233635.7785185142,
+            "traceur": 3081134.31633101
           },
           "elapsed": {
-            "babel-runtime": 5.554,
-            "babel-loose": 5.626,
-            "babel": 5.473,
-            "es5": 5.548,
-            "es6": 5.431,
-            "traceur": 5.643
+            "babel-runtime": 5.606,
+            "babel-loose": 5.744,
+            "es5": 5.387,
+            "babel": 5.801,
+            "es6": 5.724,
+            "traceur": 5.62
           },
           "count": {
-            "babel-runtime": 142348,
-            "babel-loose": 181445,
-            "babel": 165726,
-            "es5": 654202,
-            "es6": 164587,
-            "traceur": 164217
+            "babel-runtime": 156635,
+            "babel-loose": 185322,
+            "es5": 632501,
+            "babel": 167646,
+            "es6": 169432,
+            "traceur": 167327
           },
           "errors": {
             "typescript": "Error: AssertError - Expect  to equal bd"
@@ -2657,422 +2657,422 @@
         },
         "generator": {
           "supportsES6": true,
-          "baseline": 7186494.562340251,
+          "baseline": 7037151.366115111,
           "relative": {
-            "babel-loose": 0.1521426752802216,
-            "babel-runtime": 0.151268239304706,
-            "babel": 0.15167711503345085,
-            "es6": 0.15940408804218317,
-            "traceur": 0.035356459876236826
+            "babel-loose": 0.12200837995065118,
+            "babel-runtime": 0.15877429063197485,
+            "babel": 0.14148481522038323,
+            "es6": 0.16198527019545828,
+            "traceur": 0.03540637493353302
           },
           "raw": {
-            "babel-loose": 1093372.508601211,
-            "babel-runtime": 1087088.3792180535,
-            "babel": 1090026.7624193514,
-            "es6": 1145556.6119299561,
-            "traceur": 254089.00664417722
+            "babel-loose": 858591.4376472165,
+            "babel-runtime": 1117318.7162247594,
+            "babel": 995650.0607126639,
+            "es6": 1139914.8654464947,
+            "traceur": 249160.0197326957
           },
           "elapsed": {
-            "babel-loose": 5.525,
-            "babel-runtime": 5.547,
-            "es5": 5.498,
-            "babel": 5.599,
-            "es6": 5.51,
-            "traceur": 5.754
+            "babel-loose": 5.388,
+            "babel-runtime": 5.638,
+            "babel": 5.635,
+            "es5": 5.501,
+            "es6": 5.707,
+            "traceur": 5.638
           },
           "count": {
-            "babel-loose": 57398,
-            "babel-runtime": 57002,
-            "es5": 383442,
-            "babel": 57980,
-            "es6": 61350,
-            "traceur": 28774
+            "babel-loose": 44149,
+            "babel-runtime": 59897,
+            "babel": 53601,
+            "es5": 389608,
+            "es6": 63104,
+            "traceur": 27073
           },
           "errors": {}
         },
         "map-set": {
           "supportsES6": true,
-          "baseline": 179888.18272059242,
+          "baseline": 188022.40968332122,
           "relative": {
-            "babel-runtime": 0.07685546148596516,
-            "babel-loose": 0.0729170752372234,
-            "babel": 0.16445883480852738,
-            "buble": 0.19141141464520334,
-            "es6": 0.18273089501627687,
-            "traceur": 0.16734866474335186,
-            "typescript": 0.18136114372599274
+            "babel-runtime": 0.060487389798003194,
+            "babel-loose": 0.06712566976746878,
+            "babel": 0.16788741898248344,
+            "buble": 0.17315227929074214,
+            "es6": 0.18985663265874803,
+            "traceur": 0.11900359717893744,
+            "typescript": 0.17310964386698835
           },
           "raw": {
-            "babel-runtime": 13825.389298862754,
-            "babel-loose": 13116.92015372483,
-            "babel": 29584.200926052097,
-            "buble": 34432.65153250342,
-            "es6": 32871.12863138541,
-            "traceur": 30104.04718139924,
-            "typescript": 32624.726560997005
+            "babel-runtime": 11372.9847852749,
+            "babel-loose": 12621.130181286344,
+            "babel": 31566.5970725999,
+            "buble": 32556.508794404777,
+            "es6": 35697.30156685894,
+            "traceur": 22375.343102567105,
+            "typescript": 32548.49237929272
           },
           "elapsed": {
-            "babel-runtime": 5.58,
-            "babel-loose": 5.78,
-            "babel": 5.463,
-            "buble": 5.461,
-            "es5": 5.505,
-            "es6": 5.606,
-            "traceur": 5.664,
-            "typescript": 5.475
+            "babel-runtime": 5.427,
+            "babel-loose": 5.438,
+            "babel": 5.383,
+            "buble": 5.586,
+            "es5": 5.465,
+            "es6": 5.665,
+            "traceur": 5.627,
+            "typescript": 5.605
           },
           "count": {
-            "babel-runtime": 721,
-            "babel-loose": 695,
-            "babel": 1690,
-            "buble": 1808,
-            "es5": 9711,
-            "es6": 1794,
-            "traceur": 1733,
-            "typescript": 1796
+            "babel-runtime": 716,
+            "babel-loose": 713,
+            "babel": 1713,
+            "buble": 1819,
+            "es5": 9953,
+            "es6": 1845,
+            "traceur": 1463,
+            "typescript": 1793
           },
           "errors": {}
         },
         "map-set-lookup": {
           "supportsES6": true,
-          "baseline": 1995922.4020469585,
+          "baseline": 2021542.1951344125,
           "relative": {
-            "babel-loose": 2.167701002046725,
-            "babel-runtime": 2.292137049133214,
-            "babel": 8.484211584026648,
-            "buble": 9.096572773861379,
-            "es6": 9.095410338123317,
-            "traceur": 8.618303586376104,
-            "typescript": 8.663006237005874
+            "babel-runtime": 2.183720337747305,
+            "babel-loose": 2.2536653626973733,
+            "babel": 9.27966458722406,
+            "buble": 8.460571223318551,
+            "es6": 8.778263508678394,
+            "typescript": 9.083216736453418,
+            "traceur": 8.68729991649506
           },
           "raw": {
-            "babel-loose": 4326562.990924698,
-            "babel-runtime": 4574927.684926791,
-            "babel": 16933827.964265097,
-            "buble": 18156053.381200366,
-            "es6": 18153733.24966983,
-            "traceur": 17201465.19568971,
-            "typescript": 17290688.217512548
+            "babel-runtime": 4414482.805129347,
+            "babel-loose": 4555879.62440564,
+            "babel": 18759233.519768,
+            "buble": 17103401.722878426,
+            "es6": 17745630.08280203,
+            "typescript": 18362105.900291678,
+            "traceur": 17561743.342982423
           },
           "elapsed": {
-            "babel-loose": 5.544,
-            "babel-runtime": 5.626,
-            "babel": 5.417,
-            "buble": 5.559,
-            "es5": 5.426,
-            "es6": 5.605,
-            "traceur": 5.492,
-            "typescript": 5.445
+            "babel-runtime": 5.612,
+            "babel-loose": 5.625,
+            "babel": 5.45,
+            "buble": 5.504,
+            "es6": 5.492,
+            "es5": 5.565,
+            "typescript": 5.445,
+            "traceur": 5.554
           },
           "count": {
-            "babel-loose": 232116,
-            "babel-runtime": 234347,
-            "babel": 963203,
-            "buble": 938821,
-            "es5": 102770,
-            "es6": 940559,
-            "traceur": 907232,
-            "typescript": 926457
+            "babel-runtime": 234399,
+            "babel-loose": 236363,
+            "babel": 970993,
+            "buble": 948933,
+            "es6": 947696,
+            "es5": 105388,
+            "typescript": 955264,
+            "traceur": 945766
           },
           "errors": {}
         },
         "map-set-object": {
           "supportsES6": true,
-          "baseline": 124884.49312495172,
+          "baseline": 137131.1318387663,
           "relative": {
-            "babel-runtime": 0.05470238565303652,
-            "babel-loose": 0.05217103614941058,
-            "buble": 0.13480346843347268,
-            "babel": 0.12245057586978192,
-            "es6": 0.12180404663536994,
-            "traceur": 0.11678116137126665,
-            "typescript": 0.1309347197785911
+            "babel-runtime": 0.0468963459379086,
+            "babel-loose": 0.04981148453424132,
+            "babel": 0.11577262679509609,
+            "buble": 0.11618641327544203,
+            "es6": 0.12322649442621647,
+            "traceur": 0.0837070043380753,
+            "typescript": 0.10761741374165516
           },
           "raw": {
-            "babel-runtime": 6831.4797050050975,
-            "babel-loose": 6515.353405322673,
-            "buble": 16834.862826799665,
-            "babel": 15292.17810035616,
-            "es6": 15211.436624626156,
-            "traceur": 14584.156144393828,
-            "typescript": 16351.716112006941
+            "babel-runtime": 6430.948997567736,
+            "babel-loose": 6830.705252749715,
+            "babel": 15876.03134835861,
+            "buble": 15932.774356748028,
+            "es6": 16898.188653190493,
+            "traceur": 11478.836247712788,
+            "typescript": 14757.697751953974
           },
           "elapsed": {
-            "babel-runtime": 5.686,
-            "babel-loose": 5.696,
-            "buble": 5.508,
-            "babel": 5.778,
-            "es5": 5.766,
-            "es6": 5.538,
-            "traceur": 5.535,
-            "typescript": 5.525
+            "babel-runtime": 5.377,
+            "babel-loose": 5.589,
+            "babel": 5.72,
+            "buble": 5.805,
+            "es5": 5.445,
+            "es6": 5.596,
+            "traceur": 5.777,
+            "typescript": 5.546
           },
           "count": {
-            "babel-runtime": 359,
-            "babel-loose": 349,
-            "buble": 883,
-            "babel": 839,
-            "es5": 8207,
-            "es6": 869,
-            "traceur": 859,
-            "typescript": 879
+            "babel-runtime": 354,
+            "babel-loose": 360,
+            "babel": 846,
+            "buble": 859,
+            "es5": 8465,
+            "es6": 874,
+            "traceur": 769,
+            "typescript": 871
           },
           "errors": {}
         },
         "map-string": {
           "supportsES6": true,
-          "baseline": 67602673.16437253,
+          "baseline": 61723548.82915375,
           "relative": {
-            "babel-runtime": 0.10043020508719687,
-            "babel-loose": 0.09424256493107502,
-            "babel": 0.44008385755740814,
-            "buble": 0.44787887655428216,
-            "es6": 0.439969321709984,
-            "traceur": 0.4367449490404362,
-            "typescript": 0.4556353647024254
+            "babel-runtime": 0.09644262966044606,
+            "babel-loose": 0.10503402871368073,
+            "babel": 0.4930743894198823,
+            "buble": 0.4814901451797906,
+            "es6": 0.4817627634269043,
+            "traceur": 0.45715383419038436,
+            "typescript": 0.47799798201967936
           },
           "raw": {
-            "babel-runtime": 6789350.330340674,
-            "babel-loose": 6371049.315207621,
-            "babel": 29750845.18736974,
-            "buble": 30277809.30892549,
-            "es6": 29743102.25791072,
-            "traceur": 29525126.046171147,
-            "typescript": 30802168.642107744
+            "babel-runtime": 5952781.361058534,
+            "babel-loose": 6483073.000031609,
+            "babel": 30434301.151763275,
+            "buble": 29719280.48676113,
+            "es6": 29736107.45244857,
+            "traceur": 28217157.007085044,
+            "typescript": 29503731.78342863
           },
           "elapsed": {
-            "babel-runtime": 5.553,
-            "babel-loose": 5.588,
-            "babel": 5.391,
-            "buble": 5.565,
-            "es5": 5.475,
-            "es6": 5.704,
-            "traceur": 5.473,
-            "typescript": 5.421
+            "babel-runtime": 5.393,
+            "babel-loose": 5.664,
+            "babel": 5.645,
+            "buble": 5.578,
+            "es5": 5.588,
+            "es6": 5.578,
+            "traceur": 5.454,
+            "typescript": 5.575
           },
           "count": {
-            "babel-runtime": 352588,
-            "babel-loose": 345683,
-            "babel": 1621278,
-            "buble": 1611609,
-            "es5": 3655575,
-            "es6": 1571580,
-            "traceur": 1626682,
-            "typescript": 1620921
+            "babel-runtime": 350760,
+            "babel-loose": 357649,
+            "babel": 1618419,
+            "buble": 1617782,
+            "es5": 3412576,
+            "es6": 1613304,
+            "traceur": 1593009,
+            "typescript": 1615565
           },
           "errors": {}
         },
         "object-assign": {
           "supportsES6": true,
-          "baseline": 5261642.33891538,
+          "baseline": 5420331.891658704,
           "relative": {
-            "babel-runtime": 0.31313567987829877,
-            "babel-loose": 0.3083204545572135,
-            "babel": 0.30856139593825693,
-            "buble": 0.3169528237575563,
-            "es6": 0.29892074210886327,
-            "traceur": 0.30253639173247154,
-            "typescript": 0.30682604660548957
+            "babel-runtime": 0.27266496853430344,
+            "babel-loose": 0.2949380070665349,
+            "babel": 0.29598774624863955,
+            "buble": 0.28138703576455026,
+            "es6": 0.2827680138046776,
+            "traceur": 0.25072100065036307,
+            "typescript": 0.29520605174852727
           },
           "raw": {
-            "babel-runtime": 1647607.9510727096,
-            "babel-loose": 1622271.9576518699,
-            "babel": 1623539.7050235646,
-            "buble": 1667692.3969215425,
-            "es6": 1572814.0326600003,
-            "traceur": 1591838.287802261,
-            "typescript": 1614408.9175014675
+            "babel-runtime": 1477934.6246846018,
+            "babel-loose": 1598661.8857649993,
+            "babel": 1604351.820531685,
+            "buble": 1525211.1238539,
+            "es6": 1532696.4831664825,
+            "traceur": 1358991.0357337457,
+            "typescript": 1600114.776903192
           },
           "elapsed": {
-            "babel-runtime": 5.557,
-            "babel-loose": 5.811,
-            "babel": 5.507,
-            "buble": 5.536,
-            "es5": 5.485,
-            "es6": 5.479,
-            "traceur": 5.498,
-            "typescript": 5.533
+            "babel-runtime": 5.406,
+            "babel-loose": 5.736,
+            "babel": 5.611,
+            "buble": 5.448,
+            "es5": 5.404,
+            "es6": 5.405,
+            "traceur": 5.463,
+            "typescript": 5.581
           },
           "count": {
-            "babel-runtime": 86306,
-            "babel-loose": 86073,
-            "babel": 85521,
-            "buble": 86264,
-            "es5": 294912,
-            "es6": 83066,
-            "traceur": 84388,
-            "typescript": 83381
+            "babel-runtime": 87106,
+            "babel-loose": 87881,
+            "babel": 86801,
+            "buble": 87252,
+            "es5": 302318,
+            "es6": 84793,
+            "traceur": 79987,
+            "typescript": 87706
           },
           "errors": {}
         },
         "object-literal-ext": {
           "supportsES6": true,
-          "baseline": 23056279.96966772,
+          "baseline": 20950333.372094247,
           "relative": {
-            "babel-runtime": 0.284500468965612,
-            "babel-loose": 0.992873066829099,
-            "babel": 0.24071406198900094,
-            "es6": 0.1313986251960439,
-            "traceur": 0.03780507029981937,
-            "typescript": 0.9407727067818134
+            "babel-loose": 1.087996957458961,
+            "babel-runtime": 0.28696383183955776,
+            "babel": 0.30911070050836575,
+            "es6": 0.1462167026153197,
+            "traceur": 0.040536404100435505,
+            "typescript": 0.9834826965855996
           },
           "raw": {
-            "babel-runtime": 6559522.463972913,
-            "babel-loose": 22891959.403154317,
-            "babel": 5549970.805854357,
-            "es6": 3029563.4901494235,
-            "traceur": 871644.2851056054,
-            "typescript": 21690718.915383607
+            "babel-loose": 22793898.966589473,
+            "babel-runtime": 6011987.942772329,
+            "babel": 6475972.224531845,
+            "es6": 3063288.6643593125,
+            "traceur": 849251.179610052,
+            "typescript": 20604290.35915453
           },
           "elapsed": {
-            "babel-runtime": 5.552,
-            "babel-loose": 5.573,
-            "es5": 5.632,
-            "babel": 5.663,
-            "es6": 5.513,
-            "traceur": 5.516,
-            "typescript": 5.6
+            "babel-loose": 5.42,
+            "babel-runtime": 5.555,
+            "babel": 5.677,
+            "es5": 5.553,
+            "es6": 5.428,
+            "traceur": 5.585,
+            "typescript": 5.519
           },
           "count": {
-            "babel-runtime": 343629,
-            "babel-loose": 1211723,
-            "es5": 1203504,
-            "babel": 296552,
-            "es6": 157489,
-            "traceur": 46686,
-            "typescript": 1188249
+            "babel-loose": 1246774,
+            "babel-runtime": 335714,
+            "babel": 343502,
+            "es5": 1203949,
+            "es6": 158599,
+            "traceur": 47098,
+            "typescript": 1169563
           },
           "errors": {}
         },
         "regex-u": {
           "supportsES6": true,
-          "baseline": 19631807.991425335,
+          "baseline": 16663156.322085846,
           "relative": {
-            "babel": 0.586664984149196,
-            "es6": 0.658493602155352,
-            "traceur": 0.6112231175883995,
-            "typescript": 0.6508712626366411
+            "babel": 0.6544226297276783,
+            "traceur": 0.7092510377833092,
+            "es6": 0.7216923837389109,
+            "typescript": 0.7505137949659642
           },
           "raw": {
-            "babel": 11517294.324109605,
-            "es6": 12927419.961095896,
-            "traceur": 11999414.88441585,
-            "typescript": 12777779.65521911
+            "babel": 10904746.579862807,
+            "traceur": 11818360.914184896,
+            "es6": 12025673.006700236,
+            "typescript": 12505928.687399747
           },
           "elapsed": {
-            "babel": 5.479,
-            "es5": 5.521,
-            "es6": 5.579,
-            "traceur": 5.627,
-            "typescript": 5.631
+            "babel": 5.534,
+            "es5": 5.559,
+            "traceur": 5.591,
+            "es6": 5.653,
+            "typescript": 5.717
           },
           "count": {
-            "babel": 612757,
-            "es5": 1004102,
-            "es6": 689447,
-            "traceur": 671278,
-            "typescript": 660748
+            "babel": 603902,
+            "es5": 893291,
+            "traceur": 668234,
+            "es6": 668075,
+            "typescript": 676245
           },
           "errors": {}
         },
         "rest": {
           "supportsES6": true,
-          "baseline": 13880891.17901131,
+          "baseline": 14281890.920055041,
           "relative": {
-            "babel": 5.645691244260145,
-            "buble": 1.2552207121899606,
-            "es6": 1.2198795348201255,
-            "traceur": 1.1835155072098948,
-            "typescript": 1.19242801524311
+            "babel": 4.7255470329040055,
+            "buble": 1.0169795731403257,
+            "es6": 1.0881070041163954,
+            "traceur": 1.102562226495953,
+            "typescript": 1.2549681015298737
           },
           "raw": {
-            "babel": 78367225.79187202,
-            "buble": 17423582.111549918,
-            "es6": 16933015.0743411,
-            "traceur": 16428249.964252926,
-            "typescript": 16551963.518394047
+            "babel": 67489747.26152475,
+            "buble": 14524391.33151427,
+            "es6": 15540225.542138241,
+            "traceur": 15746673.45138822,
+            "typescript": 17923317.534198217
           },
           "elapsed": {
-            "babel": 5.458,
-            "buble": 5.466,
-            "es6": 5.454,
-            "es5": 5.503,
-            "traceur": 5.391,
-            "typescript": 5.539
+            "babel": 5.653,
+            "buble": 5.675,
+            "es6": 5.42,
+            "es5": 5.565,
+            "traceur": 5.809,
+            "typescript": 5.725
           },
           "count": {
-            "babel": 4113956,
-            "buble": 944712,
-            "es6": 895148,
-            "es5": 739526,
-            "traceur": 929917,
-            "typescript": 970834
+            "babel": 3724360,
+            "buble": 915413,
+            "es6": 876175,
+            "es5": 790406,
+            "traceur": 913286,
+            "typescript": 950124
           },
           "errors": {}
         },
         "spread": {
           "supportsES6": true,
-          "baseline": 36825153.63395804,
+          "baseline": 33659867.872141875,
           "relative": {
-            "babel": 0.8823857285546279,
-            "buble": 0.9826545642465099,
-            "es6": 0.04305525417373818,
-            "traceur": 0.09797813119892293,
-            "typescript": 1.004055784105175
+            "buble": 1.0460072977497443,
+            "babel": 1.0123777551711175,
+            "es6": 0.04320708675411285,
+            "typescript": 1.091583670462403,
+            "traceur": 0.10625905855857241
           },
           "raw": {
-            "babel": 32493990.01843617,
-            "buble": 36186405.29748782,
-            "es6": 1585516.3496970215,
-            "traceur": 3608059.7341684345,
-            "typescript": 36974508.50673727
+            "buble": 35208467.43555256,
+            "babel": 34076501.47575541,
+            "es6": 1454344.8312836098,
+            "typescript": 36742562.119152136,
+            "traceur": 3576665.871299734
           },
           "elapsed": {
-            "babel": 5.44,
-            "buble": 5.466,
-            "es5": 5.457,
-            "es6": 5.471,
-            "traceur": 5.429,
-            "typescript": 5.558
+            "buble": 5.378,
+            "babel": 5.548,
+            "es5": 5.69,
+            "es6": 5.638,
+            "typescript": 5.406,
+            "traceur": 5.664
           },
           "count": {
-            "babel": 1757627,
-            "buble": 1962569,
-            "es5": 1937323,
-            "es6": 83533,
-            "traceur": 195641,
-            "typescript": 1897288
+            "buble": 2036588,
+            "babel": 1802557,
+            "es5": 1941337,
+            "es6": 87321,
+            "typescript": 1971627,
+            "traceur": 206452
           },
           "errors": {}
         },
         "spread-generator": {
           "supportsES6": true,
-          "baseline": 5354386.08241142,
+          "baseline": 5619782.953938305,
           "relative": {
-            "babel-runtime": 0.03986747410487327,
-            "babel": 0.062360818654966566,
-            "es6": 0.11521789331009533,
-            "traceur": 0.04003817620715897
+            "babel": 0.05537762213381252,
+            "babel-runtime": 0.03152269595485403,
+            "es6": 0.11017487516280858,
+            "traceur": 0.03251356720200966
           },
           "raw": {
-            "babel-runtime": 213465.8484880311,
-            "babel": 333903.8994939354,
-            "es6": 616921.0843843382,
-            "traceur": 214379.85344874804
+            "babel": 311210.2168972362,
+            "babel-runtime": 177150.70938926865,
+            "es6": 619158.8853922324,
+            "traceur": 182719.19073358146
           },
           "elapsed": {
-            "babel-runtime": 5.536,
-            "babel": 5.672,
-            "es6": 5.597,
-            "es5": 5.745,
-            "traceur": 5.703
+            "babel": 5.486,
+            "babel-runtime": 5.637,
+            "es6": 5.469,
+            "es5": 5.856,
+            "traceur": 5.581
           },
           "count": {
-            "babel-runtime": 11196,
-            "babel": 18011,
-            "es6": 33285,
-            "es5": 295661,
-            "traceur": 21851
+            "babel": 18478,
+            "babel-runtime": 11658,
+            "es6": 34902,
+            "es5": 294331,
+            "traceur": 19979
           },
           "errors": {
             "babel-loose": "Error: AssertError - Expect -Infinity to equal 3"
@@ -3080,305 +3080,305 @@
         },
         "spread-literal": {
           "supportsES6": true,
-          "baseline": 17337190.912256032,
+          "baseline": 17058147.15263681,
           "relative": {
-            "babel": 0.25257634779193516,
-            "buble": 0.2380492991782498,
-            "es6": 0.1222659146576417,
-            "traceur": 0.11290530771495198,
-            "typescript": 0.24909452876968757
+            "babel": 0.23504735476240693,
+            "buble": 0.2402810268491874,
+            "es6": 0.11316939162043602,
+            "typescript": 0.24366684751609918,
+            "traceur": 0.1343384962026914
           },
           "raw": {
-            "babel": 4378964.361589157,
-            "buble": 4127106.1463820697,
-            "es6": 2119747.5044811373,
-            "traceur": 1957460.8748611363,
-            "typescript": 4318599.400478526
+            "babel": 4009472.3653751663,
+            "buble": 4098749.113980115,
+            "es6": 1930460.1354357807,
+            "typescript": 4156504.941148735,
+            "traceur": 2291565.836489451
           },
           "elapsed": {
-            "babel": 5.542,
-            "buble": 5.595,
-            "es6": 5.542,
-            "es5": 5.719,
-            "traceur": 5.623,
-            "typescript": 5.521
+            "babel": 5.532,
+            "buble": 5.674,
+            "es5": 5.541,
+            "es6": 5.588,
+            "typescript": 5.366,
+            "traceur": 5.674
           },
           "count": {
-            "babel": 228972,
-            "buble": 225530,
-            "es6": 113626,
-            "es5": 976888,
-            "traceur": 113369,
-            "typescript": 225201
+            "babel": 227043,
+            "buble": 227619,
+            "es5": 952850,
+            "es6": 112385,
+            "typescript": 223024,
+            "traceur": 136507
           },
           "errors": {}
         },
         "super": {
           "supportsES6": true,
-          "baseline": 41219711.94614471,
+          "baseline": 41393883.57995443,
           "relative": {
-            "babel-runtime": 0.09407186070388061,
-            "babel-loose": 0.3584421544716588,
-            "babel": 0.09157865058376687,
-            "buble": 1.0333976583397044,
-            "es6": 0.3093987267238944,
-            "traceur": 0.12201702419710073,
-            "typescript": 0.9826341022635364
+            "babel-runtime": 0.08322375945434729,
+            "babel-loose": 0.3697725607515038,
+            "babel": 0.08700086625327962,
+            "buble": 0.9625895753963447,
+            "es6": 0.2812196964393953,
+            "typescript": 1.0348401374878644,
+            "traceur": 0.11060232610904173
           },
           "raw": {
-            "babel-runtime": 3877615.000451809,
-            "babel-loose": 14774882.356677279,
-            "babel": 3774845.597479507,
-            "buble": 42596353.80258308,
-            "es6": 12753326.39206287,
-            "traceur": 5029506.589930261,
-            "typescript": 40503894.64376147
+            "babel-runtime": 3444954.609939384,
+            "babel-loose": 15306322.330809373,
+            "babel": 3601303.7290434428,
+            "buble": 39845320.81923406,
+            "es6": 11640775.374802455,
+            "typescript": 42836052.1750367,
+            "traceur": 4578259.810629828
           },
           "elapsed": {
-            "babel-runtime": 5.459,
-            "babel-loose": 5.595,
-            "babel": 5.496,
-            "buble": 5.464,
-            "es6": 5.485,
-            "es5": 5.626,
-            "traceur": 5.538,
-            "typescript": 5.602
+            "babel-runtime": 5.382,
+            "babel-loose": 5.488,
+            "babel": 5.46,
+            "buble": 5.631,
+            "es5": 5.639,
+            "es6": 5.553,
+            "typescript": 5.416,
+            "traceur": 5.594
           },
           "count": {
-            "babel-runtime": 197131,
-            "babel-loose": 777751,
-            "babel": 196858,
-            "buble": 2251252,
-            "es6": 688273,
-            "es5": 2228076,
-            "traceur": 266436,
-            "typescript": 2179927
+            "babel-runtime": 194273,
+            "babel-loose": 814515,
+            "babel": 196659,
+            "buble": 2140912,
+            "es5": 2234646,
+            "es6": 691148,
+            "typescript": 2272792,
+            "traceur": 268170
           },
           "errors": {}
         },
         "template_string": {
           "supportsES6": true,
-          "baseline": 26971865.994023696,
+          "baseline": 27764803.459749293,
           "relative": {
-            "buble": 1.0858676895286192,
-            "babel": 1.0520687042192634,
-            "es6": 0.899346710993683,
-            "traceur": 0.9449594033976298,
-            "typescript": 1.0315998766062238
+            "babel": 0.8490018066486658,
+            "buble": 0.9399561355077913,
+            "es6": 0.7999627578109392,
+            "traceur": 0.9110473206566486,
+            "typescript": 0.9956932711139422
           },
           "raw": {
-            "buble": 29287877.809206042,
-            "babel": 28376256.106708124,
-            "es6": 24257058.971087575,
-            "traceur": 25487318.39823345,
-            "typescript": 27824173.631274447
+            "babel": 23572368.298572276,
+            "buble": 26097697.3631593,
+            "es6": 22210808.74573975,
+            "traceur": 25295049.80056304,
+            "typescript": 27645227.978673473
           },
           "elapsed": {
-            "buble": 5.657,
-            "babel": 5.705,
-            "es5": 5.477,
-            "es6": 5.58,
-            "traceur": 5.468,
-            "typescript": 5.569
+            "babel": 5.436,
+            "buble": 5.484,
+            "es5": 5.41,
+            "es6": 5.545,
+            "traceur": 5.593,
+            "typescript": 5.717
           },
           "count": {
-            "buble": 1516297,
-            "babel": 1477029,
-            "es5": 1538676,
-            "es6": 1322815,
-            "traceur": 1415712,
-            "typescript": 1478515
+            "babel": 1441412,
+            "buble": 1443611,
+            "es5": 1460655,
+            "es6": 1280577,
+            "traceur": 1440817,
+            "typescript": 1492255
           },
           "errors": {}
         },
         "template_string_tag": {
           "supportsES6": true,
-          "baseline": 23785110.229271103,
+          "baseline": 21822378.215598755,
           "relative": {
-            "babel-loose": 1.006787176884978,
-            "babel-runtime": 0.6870445651282437,
-            "babel": 0.6612788602641081,
-            "es6": 0.29621269960279223,
-            "traceur": 0.09189571839091397,
-            "typescript": 0.7231007448596478
+            "babel-runtime": 0.6095433701458672,
+            "babel-loose": 1.0859360277810792,
+            "babel": 0.6374281614390124,
+            "es6": 0.28905391665183144,
+            "traceur": 0.0944673082883041,
+            "typescript": 0.8217363600675627
           },
           "raw": {
-            "babel-loose": 23946543.97962587,
-            "babel-runtime": 16341430.713996908,
-            "babel": 15728590.583668575,
-            "es6": 7045451.7113623815,
-            "traceur": 2185749.7915259446,
-            "typescript": 17199030.923354764
+            "babel-runtime": 13301685.962133821,
+            "babel-loose": 23697706.716183666,
+            "babel": 13910198.424195869,
+            "es6": 6307843.893876425,
+            "traceur": 2061501.330476939,
+            "typescript": 17932241.642903794
           },
           "elapsed": {
-            "babel-loose": 5.406,
-            "babel-runtime": 5.407,
-            "es5": 5.447,
-            "babel": 5.597,
-            "es6": 5.511,
-            "traceur": 5.553,
-            "typescript": 5.441
+            "babel-runtime": 5.454,
+            "babel-loose": 5.685,
+            "babel": 5.462,
+            "es5": 5.392,
+            "es6": 5.618,
+            "traceur": 5.597,
+            "typescript": 5.49
           },
           "count": {
-            "babel-loose": 1230293,
-            "babel-runtime": 841814,
-            "es5": 1251313,
-            "babel": 817542,
-            "es6": 372511,
-            "traceur": 121614,
-            "typescript": 926060
+            "babel-runtime": 819424,
+            "babel-loose": 1283065,
+            "babel": 810041,
+            "es5": 1217932,
+            "es6": 366108,
+            "traceur": 122708,
+            "typescript": 964806
           },
           "errors": {}
         },
         "new-target": {
           "supportsES6": true,
-          "baseline": 63344078.8871744,
+          "baseline": 57172331.080462165,
           "relative": {
-            "es6": 0.6052805039076943
+            "es6": 0.6419204635919948
           },
           "raw": {
-            "es6": 38340935.98839766
+            "es6": 36700089.27180529
           },
           "elapsed": {
-            "es6": 5.441,
-            "es5": 5.653
+            "es5": 5.42,
+            "es6": 5.592
           },
           "count": {
-            "es6": 1976235,
-            "es5": 3451112
+            "es5": 3098364,
+            "es6": 1993360
           },
           "errors": {}
         },
         "destructuring-array": {
           "supportsES6": true,
-          "baseline": 82399942.38520376,
+          "baseline": 75730273.26625377,
           "relative": {
-            "es6": 0.14721675038779192
+            "es6": 0.16918920388709163
           },
           "raw": {
-            "es6": 12130651.750090977
+            "es6": 12812744.644069374
           },
           "elapsed": {
-            "es5": 5.398,
-            "es6": 5.425
+            "es6": 5.452,
+            "es5": 5.574
           },
           "count": {
-            "es5": 4544246,
-            "es6": 636309
+            "es6": 684517,
+            "es5": 4347632
           },
           "errors": {}
         },
         "destructuring-custom-iterator": {
           "supportsES6": true,
-          "baseline": 3920099.941299521,
+          "baseline": 4168731.907098321,
           "relative": {
-            "es6": 0.9632785600404582
+            "es6": 0.9189979872433229
           },
           "raw": {
-            "es6": 3776148.2266696873
+            "es6": 3831056.231980376
           },
           "elapsed": {
-            "es5": 5.464,
-            "es6": 5.466
+            "es5": 5.471,
+            "es6": 5.611
           },
           "count": {
-            "es5": 212312,
-            "es6": 201234
+            "es5": 217831,
+            "es6": 209707
           },
           "errors": {}
         },
         "destructuring-default-values": {
           "supportsES6": true,
-          "baseline": 77429648.61727804,
+          "baseline": 76966439.3790163,
           "relative": {
-            "es6": 1.0463758973745019
+            "es6": 0.9605297043735789
           },
           "raw": {
-            "es6": 81020518.05529667
+            "es6": 73928551.2634135
           },
           "elapsed": {
-            "es6": 5.444,
-            "es5": 5.589
+            "es5": 5.362,
+            "es6": 5.471
           },
           "count": {
-            "es6": 4300438,
-            "es5": 4463874
+            "es5": 4256802,
+            "es6": 4325454
           },
           "errors": {}
         },
         "destructuring-nested-object": {
           "supportsES6": true,
-          "baseline": 84837844.8306891,
+          "baseline": 76099877.23027092,
           "relative": {
-            "es6": 0.9505234464321486
+            "es6": 0.9830443946076823
           },
           "raw": {
-            "es6": 80640360.65634245
+            "es6": 74809557.74155062
           },
           "elapsed": {
-            "es6": 5.413,
-            "es5": 5.436
+            "es5": 5.41,
+            "es6": 5.532
           },
           "count": {
-            "es6": 4264462,
-            "es5": 4616879
+            "es5": 4546848,
+            "es6": 4305645
           },
           "errors": {}
         },
         "destructuring-string": {
           "supportsES6": true,
-          "baseline": 66772757.07437867,
+          "baseline": 64137823.41104515,
           "relative": {
-            "es6": 0.1789400102803897
+            "es6": 0.11801167929925067
           },
           "raw": {
-            "es6": 11948317.837339282
+            "es6": 7569012.247336232
           },
           "elapsed": {
-            "es6": 5.508,
-            "es5": 5.599
+            "es5": 5.345,
+            "es6": 5.47
           },
           "count": {
-            "es6": 637068,
-            "es5": 3950848
+            "es5": 3750446,
+            "es6": 440739
           },
           "errors": {}
         },
         "nodesource-array-includes": {
           "supportsES6": true,
-          "baseline": 74029411.11543126,
+          "baseline": 61294321.106424175,
           "relative": {
-            "es6": 0.2565907724911221
+            "es6": 0.3138181127302374
           },
           "raw": {
-            "es6": 18995263.78517137
+            "es6": 19235268.17069919
           },
           "elapsed": {
-            "es6": 5.38,
-            "es5": 5.457
+            "es6": 5.414,
+            "es5": 5.451
           },
           "count": {
-            "es6": 997354,
-            "es5": 4026892
+            "es6": 1012652,
+            "es5": 3235970
           },
           "errors": {}
         },
         "nodesource-default-params": {
           "supportsES6": true,
-          "baseline": 70171959.65171625,
+          "baseline": 58412109.138509355,
           "relative": {
-            "es6": 1.0109688756362816
+            "es6": 1.103405162555479
           },
           "raw": {
-            "es6": 70941667.15029009
+            "es6": 64452222.779185295
           },
           "elapsed": {
-            "es6": 5.379,
-            "es5": 5.418
+            "es5": 5.483,
+            "es6": 5.517
           },
           "count": {
-            "es6": 3654266,
-            "es5": 3627789
+            "es5": 3249887,
+            "es6": 3745731
           },
           "errors": {}
         },
@@ -3395,25 +3395,25 @@
         },
         "spread-super": {
           "supportsES6": true,
-          "baseline": 44233395.33258841,
+          "baseline": 46220862.950230286,
           "relative": {
-            "es6": 0.43444008942824075
+            "es6": 0.3937575045874037
           },
           "raw": {
-            "es6": 19216760.224004436
+            "es6": 18199811.65515906
           },
           "elapsed": {
-            "es6": 5.518,
-            "es5": 5.693
+            "es6": 5.48,
+            "es5": 5.613
           },
           "count": {
-            "es6": 1021588,
-            "es5": 2426600
+            "es6": 1019292,
+            "es5": 2545674
           },
           "errors": {}
         }
       },
-      "version": "6.10.0"
+      "version": "6.10.2"
     },
     "7.x": {
       "stats": {
